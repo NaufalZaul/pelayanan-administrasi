@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #bae6fd;
+    color: #0c4a6e;
+}
+
+.modal-backdrop {
+    z-index: 0;
+}

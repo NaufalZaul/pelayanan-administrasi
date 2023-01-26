@@ -1,0 +1,15 @@
+.log-form {
+    padding: 5em 0;
+}
+
+.login-des {
+    backdrop-filter: blur(10px);
+}
+
+.login-des h1 {
+    font-size: 50px;
+}
+
+.reg-form {
+    padding: 4em 0;
+}

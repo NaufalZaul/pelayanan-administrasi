@@ -1,0 +1,64 @@
+body {
+    /* background-color: #facc15; */
+    /* background-color: #7dd3fc; */
+    background-color: #bae6fd;
+}
+
+.header-title,
+.about-title,
+.notification-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0c4a6e;
+}
+
+.header span {
+    color: #0c4a6e;
+}
+
+.header-des,
+.about-des,
+.notification-des {
+    font-size: 20px;
+}
+
+.header-img {
+    z-index: 0;
+}
+
+.header-img::before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 40%;
+    background-color: #fff;
+    left: 5%;
+    bottom: -15%;
+    border-radius: 10px;
+    opacity: .9;
+    z-index: -1;
+}
+
+
+.about-img {
+    filter: brightness(0.4)
+}
+
+.mess-icon-one {
+    bottom: 20px;
+    left: -25px;
+}
+
+.mess-icon-two {
+    top: 10px;
+    right: -25px;
+}
+
+.mess-title-icon {
+    font-size: 15px;
+}
+
+.mess-time-icon,
+.mess-des-icon {
+    font-size: 13px;
+}
